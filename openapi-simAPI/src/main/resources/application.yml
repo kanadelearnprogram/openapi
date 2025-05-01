@@ -1,0 +1,14 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /api
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 1
+openapi:
+  client:
+    app-key: admin
+    secret-key: abc
